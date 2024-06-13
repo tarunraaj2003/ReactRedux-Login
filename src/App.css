@@ -1,0 +1,9 @@
+body{
+  background-image: url("./images/vil.webp");
+  background-size:1375px 650px;
+  background-repeat: no-repeat;
+}
+
+*{
+  box-sizing: border-box;
+}

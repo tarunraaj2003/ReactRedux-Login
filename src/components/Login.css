@@ -1,0 +1,38 @@
+.login{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(0px,300px));
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_form h1{
+    font-size: 35px;
+    letter-spacing: -1px;
+    font-family: sans-serif;
+    color:rgb(219, 155, 5)
+}
+
+.login_form input{
+    height:40px;
+    width:100%;
+    font-size:18px;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+    font-family:"Inter";
+    padding-left:5px;
+
+}
+
+.login_form button{
+    height:50px;
+    width:100%;
+    background-color:#062443;
+    color:#fff;
+    font-size:18px;
+    font-family: "Inter";
+}
+
+.error{
+    color:red;
+}
